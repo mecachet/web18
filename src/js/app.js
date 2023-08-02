@@ -1,3 +1,4 @@
+console.log("JavaScript file is linked correctly. Hooray.");
 function updateDigitalClock() {
   const now = new Date();
   const hours = String(now.getHours()).padStart(2, "0");
